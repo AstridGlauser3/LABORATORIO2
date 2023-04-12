@@ -1,0 +1,20 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+                {
+                "corejs" : "3.30",
+                "useBuiltIns": "usage",
+                "targets": {
+                    "chrome": 56 ,
+                    "ie": 26
+                }
+
+            }
+        ]
+    ],
+    "plugins": ["@babel/plugin-proposal-decorators"]
+  }
+  
+  
+  
